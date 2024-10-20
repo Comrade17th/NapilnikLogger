@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NapilnikLogger", "NapilnikLogger\NapilnikLogger.csproj", "{100D52CD-5374-4ECA-9C67-748758156ECE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{100D52CD-5374-4ECA-9C67-748758156ECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{100D52CD-5374-4ECA-9C67-748758156ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{100D52CD-5374-4ECA-9C67-748758156ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{100D52CD-5374-4ECA-9C67-748758156ECE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
