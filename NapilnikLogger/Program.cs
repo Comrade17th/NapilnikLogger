@@ -6,8 +6,8 @@
         {
             ILogger fileLogger = new FileLogWritter();
             ILogger consoleLogger = new ConsoleLogWritter();
-            ILogger secureFileLogger = new SecureFileLogWriter(fileLogger);
-            ILogger secureConsoleLogger = new SecureConsoleLogWritter(consoleLogger);
+            ILogger secureFileLogger = new SecureLogWritter(fileLogger);
+            ILogger secureConsoleLogger = new SecureLogWritter(consoleLogger);
             ILogger consoleAndSecureFileLogger = new ConsoleAndSecureFileLogWriter(consoleLogger, secureFileLogger);
             
             Pathfinder[] pathfinders =

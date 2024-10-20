@@ -1,10 +1,10 @@
 ﻿namespace Lesson;
 
-internal class SecureFileLogWriter : ILogger
+class SecureLogWritter : ILogger
 {
     private ILogger _logger;
 
-    public SecureFileLogWriter(ILogger logger)
+    public SecureLogWritter(ILogger logger)
     {
         _logger = logger ?? throw new ArgumentNullException(nameof(logger));
     }
